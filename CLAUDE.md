@@ -4,6 +4,12 @@
 
 @README.md
 
+## 決定事項
+- ニッチ：A+C統合案（日本の建設市場インテリジェンス：建機 × 人手 × 政策）→ `config/niche.md`
+- ペンネームで執筆。本名・勤務先・居住市町村・前職の社名は一切出さない
+- 個社名は公開資料ベースで扱ってよい。副業規定は確認済み
+
 ## 進捗
-- Phase 0（niche）: スコアカード提示済み → 編集長のニッチ決定待ち（`research/niche-scorecard.md`）
+- Phase 0（niche）: 完了（2026-10-06）
+- Phase 1（setup）: 成果物作成済み → 編集長の承認待ち（媒体名・ペンネーム・価格）
 - 繰り返し使う作業は `.claude/skills/` の `niche` / `setup` / `weekly` / `deepdive` / `review` を呼び出す

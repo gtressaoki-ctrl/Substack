@@ -1,0 +1,331 @@
+# 巡回する日本語ソース
+# pillar: machines / labor / policy
+# frequency: 更新頻度（目安）  reliability: A=一次統計・公式, B=業界団体・企業IR, C=業界紙・報道（裏取り必須）
+# url_checked: 2026-10-06 にHTTP 200を確認したもの=true。false は巡回時にトップから辿り直す
+
+sources:
+  # ---------- 政府統計・官公庁（Machines / Labor / Policy） ----------
+  - name: 国交省 報道発表資料（全体）
+    url: https://www.mlit.go.jp/report/press/index.html
+    type: government
+    pillar: policy
+    frequency: daily
+    reliability: A
+    url_checked: true
+  - name: 国交省 建築着工統計調査（時系列）
+    url: https://www.mlit.go.jp/sogoseisaku/jouhouka/sosei_jouhouka_tk4_000002.html
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 国交省 建設工事受注動態統計調査
+    url: https://www.mlit.go.jp/sogoseisaku/jouhouka/index.html
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: true
+    note: 情報化（建設経済統計）トップから辿る。過去の誤報告問題あり、対策の中間整理も参照
+  - name: 国交省 建設工事費デフレーター
+    url: https://www.mlit.go.jp/sogoseisaku/jouhouka/sosei_jouhouka_tk4_000014.html
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 国交省 建設投資見通し（毎年夏の報道発表）
+    url: https://www.mlit.go.jp/report/press/houdou202508.html
+    type: statistics
+    pillar: policy
+    frequency: yearly
+    reliability: A
+    url_checked: true
+    note: 2025年8月の報道発表一覧。最新年度は報道発表から探す
+  - name: 国交省 公共工事設計労務単価（毎年2〜3月発表）
+    url: https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo14_hh_000001_00337.html
+    type: government
+    pillar: labor
+    frequency: yearly
+    reliability: A
+    url_checked: true
+  - name: 国交省 建設労働需給調査
+    url: https://www.mlit.go.jp/report/press/index.html
+    type: statistics
+    pillar: labor
+    frequency: monthly
+    reliability: A
+    url_checked: false
+    note: 個別ページURL未確定。報道発表で「建設労働需給調査」を検索
+  - name: 国交省 i-Construction（i-Construction 2.0）
+    url: https://www.mlit.go.jp/tec/i-construction/index.html
+    type: government
+    pillar: policy
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 国交省 建設機械施工の自動化・遠隔化技術
+    url: https://www.mlit.go.jp/tec/constplan/sosei_constplan_tk_000049.html
+    type: government
+    pillar: policy
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 内閣官房 国土強靱化
+    url: https://www.cas.go.jp/jp/seisaku/kokudo_kyoujinka/
+    type: government
+    pillar: policy
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 内閣府 機械受注統計（建設業からの受注）
+    url: https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 財務省 貿易統計（HS 8429/8430/8431 等）
+    url: https://www.customs.go.jp/toukei/info/
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: true
+    note: 中古／新品の区別はHSでは原則つかない。仕向地・単価の変化で推定する場合は推定と明記
+  - name: 経産省 生産動態統計（機械統計）
+    url: https://www.meti.go.jp/statistics/tyo/seidou/
+    type: statistics
+    pillar: machines
+    frequency: monthly
+    reliability: A
+    url_checked: false
+    note: 自動チェックで403（ボット遮断の可能性）。ブラウザで確認
+  - name: 総務省 労働力調査（建設業就業者数）
+    url: https://www.stat.go.jp/data/roudou/
+    type: statistics
+    pillar: labor
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 厚労省 一般職業紹介状況（建設・採掘の有効求人倍率）
+    url: https://www.mhlw.go.jp/toukei/list/114-1.html
+    type: statistics
+    pillar: labor
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 厚労省 「外国人雇用状況」の届出状況（毎年1月発表、10月末時点）
+    url: https://www.mhlw.go.jp/stf/newpage_50256.html
+    type: statistics
+    pillar: labor
+    frequency: yearly
+    reliability: A
+    url_checked: true
+    note: 令和6年10月末時点のページ。最新年は外国人雇用対策ページから辿る
+  - name: 厚労省 外国人雇用対策
+    url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/gaikokujin/index.html
+    type: government
+    pillar: labor
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 出入国在留管理庁 特定技能（在留者数・分野別）
+    url: https://www.moj.go.jp/isa/policies/ssw/nyuukokukanri07_00215.html
+    type: statistics
+    pillar: labor
+    frequency: semiannual
+    reliability: A
+    url_checked: true
+  - name: 出入国在留管理庁 育成就労制度
+    url: https://www.moj.go.jp/isa/applications/index_00005.html
+    type: government
+    pillar: labor
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 出入国在留管理庁 在留外国人統計
+    url: https://www.moj.go.jp/isa/policies/statistics/toukei_ichiran_touroku.html
+    type: statistics
+    pillar: labor
+    frequency: semiannual
+    reliability: A
+    url_checked: true
+  - name: 首相官邸 外国人材の受入れ・共生に関する関係閣僚会議
+    url: https://www.kantei.go.jp/jp/singi/gaikokujinzai/
+    type: government
+    pillar: labor
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 外国人技能実習機構（OTIT）
+    url: https://www.otit.go.jp/
+    type: government
+    pillar: labor
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: e-Stat（政府統計の総合窓口）
+    url: https://www.e-stat.go.jp/
+    type: statistics
+    pillar: machines
+    frequency: daily
+    reliability: A
+    url_checked: true
+
+  # ---------- 業界団体 ----------
+  - name: 日本建設機械工業会（CEMA）建設機械出荷・生産実績統計
+    url: https://www.cema.or.jp/general/statistics/index.html
+    type: industry_association
+    pillar: machines
+    frequency: monthly
+    reliability: B
+    url_checked: true
+    note: 国内・輸出別、機種別。週次ブリーフの定番データ
+  - name: 日本建設機械施工協会（JCMA）
+    url: https://jcmanet.or.jp/
+    type: industry_association
+    pillar: policy
+    frequency: monthly
+    reliability: B
+    url_checked: true
+    note: 機関誌に施工技術・政策解説
+  - name: 日本建設業連合会（日建連）
+    url: https://www.nikkenren.com/
+    type: industry_association
+    pillar: labor
+    frequency: irregular
+    reliability: B
+    url_checked: true
+  - name: 全国建設業協会（全建）
+    url: https://www.zenken-net.or.jp/
+    type: industry_association
+    pillar: labor
+    frequency: irregular
+    reliability: B
+    url_checked: true
+  - name: 建設技能人材機構（JAC）建設分野の特定技能
+    url: https://jac-skill.or.jp/
+    type: industry_association
+    pillar: labor
+    frequency: irregular
+    reliability: B
+    url_checked: true
+  - name: 日本建設機械レンタル協会
+    url: https://www.jcra.or.jp/
+    type: industry_association
+    pillar: machines
+    frequency: irregular
+    reliability: B
+    url_checked: true
+  - name: 国際人材協力機構（JITCO）
+    url: https://www.jitco.or.jp/
+    type: industry_association
+    pillar: labor
+    frequency: irregular
+    reliability: B
+    url_checked: true
+
+  # ---------- 企業IR・開示 ----------
+  - name: TDnet 適時開示
+    url: https://www.release.tdnet.info/inbs/I_main_00.html
+    type: disclosure
+    pillar: machines
+    frequency: daily
+    reliability: A
+    url_checked: true
+  - name: EDINET
+    url: https://disclosure2.edinet-fsa.go.jp/
+    type: disclosure
+    pillar: machines
+    frequency: daily
+    reliability: A
+    url_checked: true
+  - name: コマツ IR
+    url: https://www.komatsu.jp/ja/ir
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: 日立建機 IR（2027年4月に社名をLANDCROSへ変更予定と報道 [要確認]）
+    url: https://www.hitachicm.com/global/ja/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: false
+    note: 自動チェックで403。ブラウザで確認
+  - name: クボタ IR（建機・ミニショベル）
+    url: https://www.kubota.co.jp/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: 神戸製鋼所 IR（コベルコ建機）
+    url: https://www.kobelco.co.jp/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: 竹内製作所 IR
+    url: https://www.takeuchi-mfg.co.jp/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: タダノ IR
+    url: https://www.tadano.co.jp/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: カナモト（建機レンタル）
+    url: https://www.kanamoto.co.jp/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+    note: IRページはトップから辿る
+  - name: 西尾レントオール IR
+    url: https://www.nishio-rent.co.jp/ir/
+    type: company_ir
+    pillar: machines
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: 鹿島建設 IR（大手ゼネコン代表。受注・人員・自動化）
+    url: https://www.kajima.co.jp/ir/
+    type: company_ir
+    pillar: labor
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+
+  # ---------- 業界紙（有料部分は見出しと公開部分のみ。全文転載禁止） ----------
+  - name: 日刊建設工業新聞
+    url: https://www.decn.co.jp/
+    type: trade_press
+    pillar: policy
+    frequency: daily
+    reliability: C
+    url_checked: true
+  - name: 建設通信新聞
+    url: https://www.kensetsunews.com/
+    type: trade_press
+    pillar: policy
+    frequency: daily
+    reliability: C
+    url_checked: true
+  - name: 建通新聞
+    url: https://www.kentsu.co.jp/
+    type: trade_press
+    pillar: policy
+    frequency: daily
+    reliability: C
+    url_checked: true
