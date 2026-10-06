@@ -11,6 +11,6 @@
 - 個社名は公開資料ベースで扱ってよい。副業規定は確認済み
 
 ## 進捗
-- Phase 0（niche）: v2スコアカード提示済み → 編集長の決定待ち
+- Phase 0（niche）: v3（追加候補G〜L）提示済み → 編集長の決定待ち
 - Phase 1（setup）: ニッチ確定後に作り直し
 - 繰り返し使う作業は `.claude/skills/` の `niche` / `setup` / `weekly` / `deepdive` / `review` を呼び出す
