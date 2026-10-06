@@ -1,6 +1,6 @@
 # Launch Kit（Phase 1）
 
-> すべて英語＋日本語訳。`[媒体名]` `[ペンネーム]` は編集長の決定後に置換する。
+> すべて英語＋日本語訳。媒体名「Yellow Iron Japan」、ペンネーム「Steve」で決定（2026-10-06）。
 
 ---
 
@@ -50,7 +50,7 @@
 
 ### EN
 
-**[媒体名]: Japan's construction market, read from the Japanese side**
+**Yellow Iron Japan: Japan's construction market, read from the Japanese side**
 
 Japan is running out of construction workers faster than almost anywhere else. That pressure is changing which machines get bought, how rental fleets turn over, how many used machines leave the country, and how fast automation and foreign workers are allowed in.
 
@@ -65,7 +65,7 @@ Each week I read those sources and send you a short brief:
 Paid subscribers also get two deep dives a month — data tables and comparisons built to support one concrete decision — plus the full archive.
 
 **Who writes this**
-I write under the pen name [ペンネーム]. I live in Japan and have spent many years working in the Japanese construction equipment industry. I use a pen name to keep this work separate from my day job. I never use non-public information from any employer, customer or business partner — everything here comes from public sources, cited in each issue, plus my own general judgment.
+"Steve" is a pen name. I am a native Japanese speaker living in Japan, and have spent many years working in the Japanese construction equipment industry. I use a pen name to keep this work separate from my day job. I never use non-public information from any employer, customer or business partner — everything here comes from public sources, cited in each issue, plus my own general judgment.
 
 **How this is made**
 I read the Japanese sources myself and decide what matters. I use AI tools to help with research, drafting and English editing. Every number is checked against its source before publishing, and anything I could not confirm is marked as such.
@@ -77,7 +77,7 @@ This is not investment, legal or immigration advice.
 
 ### JA（訳）
 
-**[媒体名]：日本の建設市場を、日本語の側から読む**
+**Yellow Iron Japan：日本の建設市場を、日本語の側から読む**
 
 日本では建設業の働き手が、世界でも有数の速さで減っています。その圧力が、どの機械が買われるか、レンタル会社の入替サイクル、国外に出ていく中古機の数、自動化や外国人材の受入れの速さを変えつつあります。
 
@@ -92,7 +92,7 @@ This is not investment, legal or immigration advice.
 有料購読者には、月2本の深掘り（1つの具体的な判断を支えるデータ表・比較）と、全アーカイブをお届けします。
 
 **書き手について**
-[ペンネーム] というペンネームで書いています。日本在住で、日本の建設機械業界に長く携わってきました。本業と切り分けるためにペンネームを使っています。勤務先・顧客・取引先の非公開情報は一切使いません。内容はすべて各号で出典を示す公開情報と、私自身の一般的な判断に基づきます。
+「Steve」はペンネームです。日本語を母語とし、日本に住んでいます。日本の建設機械業界に長く携わってきました。本業と切り分けるためにペンネームを使っています。勤務先・顧客・取引先の非公開情報は一切使いません。内容はすべて各号で出典を示す公開情報と、私自身の一般的な判断に基づきます。
 
 **作り方について**
 日本語ソースは私自身が読み、何が重要かを判断しています。調査・下書き・英文編集にはAIツールを使っています。数字はすべて公開前に出典と照合し、確認できなかったものはその旨を明記します。
@@ -108,7 +108,7 @@ This is not investment, legal or immigration advice.
 
 ### EN
 
-**Subject:** Welcome to [媒体名] — here's what to expect
+**Subject:** Welcome to Yellow Iron Japan — here's what to expect
 
 Thanks for subscribing.
 
@@ -118,21 +118,21 @@ Twice a month, paid subscribers get a deep dive built around a single decision �
 
 One request: **hit reply and tell me what you do and what you're trying to decide about Japan this quarter.** I read every reply, and the answers shape what I write next.
 
-— [ペンネーム]
+— Steve
 
 ### JA（訳）
 
-**件名：** [媒体名] へようこそ — これからお届けする内容
+**件名：** Yellow Iron Japan へようこそ — これからお届けする内容
 
 ご購読ありがとうございます。
 
 毎週[曜日]に、日本の建設市場に関する短いブリーフをお届けします。日本語ソースから3つの動き、日本の建機を買う・売る・投資する立場でそれぞれが何を意味するか、そして覚えておきたい数字1つ。5分ほどで読めます。
 
-月2回、有料購読者には1つの判断に絞った深掘りをお届けします。例えば「日本の中古ミニショベルの供給は来年タイトになりそうか、データは何を示しているか」といったテーマです。
+月2回、有料購読者には1つの判断に絞った深掘りをお届けします。例えば「日本の中古ショベルの供給は来年タイトになりそうか、データは何を示しているか」といったテーマです。
 
 ひとつお願いがあります。**このメールに返信して、あなたのお仕事と、今期日本について何を判断しようとしているかを教えてください。** 返信はすべて読み、次に書く内容に反映します。
 
-— [ペンネーム]
+— Steve
 
 ---
 
