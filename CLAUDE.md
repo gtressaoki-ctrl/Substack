@@ -6,7 +6,7 @@
 
 ## 決定事項
 - ニッチ：**G（日本の中小企業M&A・事業承継インテリジェンス、海外の買い手向け）**で決定（2026-10-08）→ `config/niche.md`。経緯は `research/`
-- 媒体名：未決（推奨 The Japan Handover、`config/launch-kit.md`）。ペンネーム：Steve（About で「ペンネーム、日本語ネイティブ、日本在住」と明示）
+- 媒体名：The Japan Handover（https://japanhandover.substack.com 予定）。開設手順は `config/substack-setup.md`、画像は `assets/branding/`。ペンネーム：Steve（About で「ペンネーム、日本語ネイティブ、日本在住」と明示）
 - ペンネームで執筆。本名・勤務先・居住市町村・前職の社名は一切出さない
 - 個社名は公開資料ベースで扱ってよい。副業規定は確認済み
 - 案件の紹介・仲介・引き合わせ・紹介料の受け取りはしない。投資・法律・税務の助言はしない
