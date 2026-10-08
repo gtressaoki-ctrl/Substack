@@ -14,5 +14,5 @@
 ## 進捗
 - Phase 0（niche）: 完了（Gに決定）
 - Phase 1（setup）: 成果物作成済み。Substack開設は編集長が対応中。未決：価格・業種の厚み・案件紹介しない方針の了承
-- Phase 2（weekly）: 2026-W41 前半完了（`signals/2026-W41.md`）→ 編集長の回答待ち
+- Phase 2（weekly）: 2026-W41 第1号を作成済み（`issues/2026-10-08-successor-crunch/`）→ 編集長の公開前チェック待ち
 - 繰り返し使う作業は `.claude/skills/` の `niche` / `setup` / `weekly` / `deepdive` / `review` を呼び出す
