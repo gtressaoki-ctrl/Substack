@@ -1,166 +1,164 @@
-# Launch Kit（Phase 1）
+# Launch Kit（Phase 1・ニッチG）
 
-> すべて英語＋日本語訳。媒体名「Yellow Iron Japan」、ペンネーム「Steve」で決定（2026-10-06）。
-
----
-
-## 1. ペンネーム案
-
-身バレ防止のため、本名（青木）と音や字が近い名前は避けています。B2B読者の信頼を考えると「日本在住の日本人の書き手」と分かる名前が有利です。
-
-| 案 | 理由 |
-|---|---|
-| **Ken Mori** | 短く英語圏で発音しやすい。"Ken" は建（kensetsu）を連想させるが本名とは無関係 |
-| **Sho Hayashi** | よくある姓で特定されにくい |
-| **Daichi Kudo** | 大地＝土工・建設のイメージ |
-
-**守ること**：Substack・X・LinkedIn・メールアドレスを本名と紐づけない（新規Gmail、新規LinkedInページ）。Stripeの受取人名は本名になるため、**読者向けの領収書・請求書に本名が出る可能性あり** → 開設時に Stripe の「明細書表記（statement descriptor）」を媒体名にする [要確認：Substack経由のStripe Express設定で表示される名前]。
+> すべて英語＋日本語訳。ペンネームは「Steve」（決定済み）。媒体名は編集長の決定後に `[媒体名]` を置換する。
 
 ---
 
-## 2. 媒体名 10案
+## 1. 媒体名 10案
 
 | # | 名前 | ねらい |
 |---|---|---|
-| 1 | **Yellow Iron Japan** | "yellow iron" は英語圏の業界俗語で建機のこと。読者に一発で通じる |
-| 2 | **Japan Groundwork** | 土工＋下調べ（groundwork）の二重の意味 |
-| 3 | Japan Jobsite Brief | 現場（jobsite）発の週次ブリーフ |
-| 4 | The Short-Handed Site | 人手不足（labor）の柱を前面に |
-| 5 | Kenki Weekly | 建機をそのまま。日本通の読者には刺さるが、新規には分かりにくい |
-| 6 | Japan Build Signal | 統計・政策から「シグナル」を拾う |
-| 7 | Iron & Hands | 機械（iron）と人手（hands） |
-| 8 | The Japan Site Ledger | 数字を記録していく台帳 |
-| 9 | Machines, Labor, Policy: Japan | 3本柱をそのまま。説明的すぎる |
-| 10 | Japan Under Construction | 覚えやすいが一般向けに見える |
+| 1 | **The Japan Handover** | 事業承継＝経営のバトンを渡すこと。短く、何の媒体か一目で分かる |
+| 2 | **Next Owner Japan** | 読者自身が「次のオーナー」になる、という読者目線 |
+| 3 | The Successor Gap | 後継者不在という構造問題を名前にする。分析系の印象 |
+| 4 | Japan Main Street | 米国で「中小企業」を指す Main Street。英語圏の買い手に通じやすい |
+| 5 | Shokei Weekly | 承継をそのまま。日本通には刺さるが新規には分かりにくい |
+| 6 | Small Deals Japan | 小型案件に特化と分かる。やや軽い |
+| 7 | The Owner's Exit | 売り手側の視点を前面に。買い手が知りたい「なぜ売るのか」 |
+| 8 | Japan Succession Brief | 説明的で堅い。B2B向けには安心感 |
+| 9 | The Retiring Owner | 高齢オーナーの引退という現実を名前に |
+| 10 | Kabushiki Kaisha for Sale | 株式会社（KK）を英語圏の人が知っている前提。遊びがあるが長い |
 
-**推奨：1. Yellow Iron Japan**（業界語で読者を選別でき、検索で埋もれにくい）。次点 2. Japan Groundwork。
-[要確認：Substackのサブドメイン・X・LinkedInでの空き状況は開設時に編集長が確認]
-
----
-
-## 3. 短い紹介文（Substackのtagline、140字以内）
-
-**EN:** Japan's construction labor shortage, machine demand and policy — read from Japanese sources, every week, for equipment dealers, traders and investors.
-
-**JA:** 日本の建設業の人手不足・機械需要・政策を、日本語の一次資料から毎週。建機ディーラー、トレーダー、投資家向け。
+**推奨：1. The Japan Handover**（短い・意味が通る・検索で埋もれにくい）。次点 2. Next Owner Japan。
+今回の検索では、上記1〜4と同名のニュースレターは見つからなかった。[要確認：Substackのサブドメイン・X・LinkedInの空き状況は開設時に編集長が確認]
 
 ---
 
-## 4. About ページ
+## 2. 短い紹介文（Substackのtagline）
+
+**EN:** Japan's small-business succession market, read from Japanese sources — the numbers, rules and sector signals foreign buyers need. Weekly.
+
+**JA:** 日本の中小企業の事業承継市場を、日本語の一次資料から。海外の買い手に必要な数字・ルール・業種の兆しを毎週。
+
+---
+
+## 3. About ページ
 
 ### EN
 
-**Yellow Iron Japan: Japan's construction market, read from the Japanese side**
+**[媒体名]: Japan's small-business succession market, read from the Japanese side**
 
-Japan is running out of construction workers faster than almost anywhere else. That pressure is changing which machines get bought, how rental fleets turn over, how many used machines leave the country, and how fast automation and foreign workers are allowed in.
+Roughly half of Japan's companies have no named successor. Many of them are profitable, and more of their owners are now willing to sell to outsiders — including foreign buyers.
 
-Most of the evidence is published only in Japanese: ministry statistics, industry association data, policy papers, company filings and trade press. By the time it reaches English, it is usually a headline without the numbers behind it.
+You have probably seen that story already. What is harder to find in English is everything you need to act on it: how many of these companies are actually for sale, which sectors and regions they cluster in, why owners sell, how Japanese intermediaries are paid, what rules changed this year, and where foreign buyers get stuck.
+
+Most of that is published only in Japanese — in government guidelines, credit-research surveys, company filings, subsidy rules and trade press.
 
 Each week I read those sources and send you a short brief:
 
-- **Three moves that matter**, each with what happened, why it matters if you buy, sell or invest in Japanese equipment, and what I'd watch next.
+- **Three moves that matter**, each with what happened, what it means for a buyer, and what I would check next.
 - **One number** worth remembering.
+- **A view from the owner's side** — how Japanese sellers and their staff tend to see a deal.
 - Links to every Japanese source, so you can check my work.
 
-Paid subscribers also get two deep dives a month — data tables and comparisons built to support one concrete decision — plus the full archive.
+Paid subscribers also get two deep dives a month — data tables and comparisons built to support one concrete decision, such as which sector to search first — plus the full archive.
+
+**What this is not**
+I don't list deals, introduce buyers to sellers, or take referral fees. I don't give investment, legal or tax advice. The goal is to help you ask better questions of the people who do.
 
 **Who writes this**
-"Steve" is a pen name. I am a native Japanese speaker living in Japan, and have spent many years working in the Japanese construction equipment industry. I use a pen name to keep this work separate from my day job. I never use non-public information from any employer, customer or business partner — everything here comes from public sources, cited in each issue, plus my own general judgment.
+"Steve" is a pen name. I am a native Japanese speaker living in Japan, with many years inside Japanese industry. I use a pen name to keep this work separate from my day job. I never use non-public information from any employer, customer or business partner — everything here comes from public sources, cited in each issue, plus my own general judgment.
 
 **How this is made**
 I read the Japanese sources myself and decide what matters. I use AI tools to help with research, drafting and English editing. Every number is checked against its source before publishing, and anything I could not confirm is marked as such.
 
 **Who this is for**
-Equipment dealers and used-machinery traders, OEM business planners, rental companies, construction-tech investors, and anyone recruiting workers into Japan's construction sector.
-
-This is not investment, legal or immigration advice.
+Search-fund entrepreneurs and their investors, small private-equity and family-office teams, and companies considering entering Japan through an acquisition.
 
 ### JA（訳）
 
-**Yellow Iron Japan：日本の建設市場を、日本語の側から読む**
+**[媒体名]：日本の中小企業の事業承継市場を、日本語の側から読む**
 
-日本では建設業の働き手が、世界でも有数の速さで減っています。その圧力が、どの機械が買われるか、レンタル会社の入替サイクル、国外に出ていく中古機の数、自動化や外国人材の受入れの速さを変えつつあります。
+日本の会社のおよそ半分には、決まった後継者がいません。その多くは黒字で、外部（海外の買い手を含む）に会社を売ってもよいと考えるオーナーも増えています。
 
-その証拠の大半は日本語でしか公開されていません。省庁の統計、業界団体のデータ、政策文書、企業の開示、業界紙。英語に届く頃には、裏付けの数字のない見出しだけになっていることがほとんどです。
+この話はもうご存じかもしれません。英語で見つけにくいのは、それを行動に移すために必要なことのすべてです。実際に何社が売りに出ているのか、どの業種・地域に多いのか、なぜオーナーは売るのか、日本の仲介会社はどう報酬を得ているのか、今年どのルールが変わったのか、海外の買い手はどこでつまずくのか。
+
+その大半は日本語でしか公開されていません。政府のガイドライン、信用調査会社の調査、企業の開示、補助金の要件、業界メディアです。
 
 毎週、私がそれらを読み、短いブリーフをお送りします。
 
-- **重要な動き3つ**：何が起きたか、日本の建機を買う・売る・投資する立場で何を意味するか、次に何を見るか。
+- **重要な動き3つ**：何が起きたか、買い手にとって何を意味するか、次に何を確認するか。
 - **覚えておきたい数字1つ**。
+- **売り手側から見た視点**：日本の売り手や従業員が、買収をどう受け止めがちか。
 - すべての日本語ソースへのリンク（検証できるように）。
 
-有料購読者には、月2本の深掘り（1つの具体的な判断を支えるデータ表・比較）と、全アーカイブをお届けします。
+有料購読者には、月2本の深掘り（「最初にどの業種を探すか」のような具体的な判断を支えるデータ表・比較）と、全アーカイブをお届けします。
+
+**このニュースレターがしないこと**
+案件の掲載、買い手と売り手の引き合わせ、紹介料の受け取りはしません。投資・法律・税務の助言もしません。専門家により良い質問ができるようになることが目的です。
 
 **書き手について**
-「Steve」はペンネームです。日本語を母語とし、日本に住んでいます。日本の建設機械業界に長く携わってきました。本業と切り分けるためにペンネームを使っています。勤務先・顧客・取引先の非公開情報は一切使いません。内容はすべて各号で出典を示す公開情報と、私自身の一般的な判断に基づきます。
+「Steve」はペンネームです。日本語を母語とし、日本に住み、日本の産業界に長く身を置いてきました。本業と切り分けるためにペンネームを使っています。勤務先・顧客・取引先の非公開情報は一切使いません。内容はすべて各号で出典を示す公開情報と、私自身の一般的な判断に基づきます。
 
 **作り方について**
 日本語ソースは私自身が読み、何が重要かを判断しています。調査・下書き・英文編集にはAIツールを使っています。数字はすべて公開前に出典と照合し、確認できなかったものはその旨を明記します。
 
 **想定読者**
-建機ディーラー・中古建機トレーダー、メーカーの事業企画、レンタル会社、建設テック投資家、日本の建設分野への人材送り出しに関わる方。
-
-本ニュースレターは投資・法律・在留手続きに関する助言ではありません。
+サーチファンドの起業家とその出資者、小型PE・ファミリーオフィスのチーム、買収による日本進出を検討する企業。
 
 ---
 
-## 5. Welcome メール
+## 4. Welcome メール
 
 ### EN
 
-**Subject:** Welcome to Yellow Iron Japan — here's what to expect
+**Subject:** Welcome to [媒体名] — here's what to expect
 
 Thanks for subscribing.
 
-Here's how this works. Every [曜日] you'll get a short brief on Japan's construction market: three moves from Japanese sources, why each one matters if you buy, sell or invest in Japanese equipment, and one number to remember. It takes about five minutes to read.
+Every [曜日] you'll get a short brief on Japan's small-business succession market: three moves from Japanese sources, what each one means for a buyer, one number to remember, and a view from the owner's side. It takes about ten minutes to read.
 
-Twice a month, paid subscribers get a deep dive built around a single decision — for example, whether Japan's used mini-excavator supply is likely to tighten next year, and what the data says.
+Twice a month, paid subscribers get a deep dive built around a single decision — for example, which sectors have the highest share of owners with no successor, and what that does and doesn't tell you about deal flow.
 
-One request: **hit reply and tell me what you do and what you're trying to decide about Japan this quarter.** I read every reply, and the answers shape what I write next.
+One request: **hit reply and tell me where you are in your search** — still exploring, actively searching, or already talking to a seller — and what you're trying to figure out about Japan. I read every reply, and the answers shape what I write next.
 
 — Steve
 
 ### JA（訳）
 
-**件名：** Yellow Iron Japan へようこそ — これからお届けする内容
+**件名：** [媒体名] へようこそ — これからお届けする内容
 
 ご購読ありがとうございます。
 
-毎週[曜日]に、日本の建設市場に関する短いブリーフをお届けします。日本語ソースから3つの動き、日本の建機を買う・売る・投資する立場でそれぞれが何を意味するか、そして覚えておきたい数字1つ。5分ほどで読めます。
+毎週[曜日]に、日本の中小企業の事業承継市場について短いブリーフをお届けします。日本語ソースから3つの動き、それぞれが買い手にとって何を意味するか、覚えておきたい数字1つ、そして売り手側から見た視点。10分ほどで読めます。
 
-月2回、有料購読者には1つの判断に絞った深掘りをお届けします。例えば「日本の中古ショベルの供給は来年タイトになりそうか、データは何を示しているか」といったテーマです。
+月2回、有料購読者には1つの判断に絞った深掘りをお届けします。例えば「後継者不在の割合が高いのはどの業種か、それは案件の出やすさについて何を示し、何を示さないか」といったテーマです。
 
-ひとつお願いがあります。**このメールに返信して、あなたのお仕事と、今期日本について何を判断しようとしているかを教えてください。** 返信はすべて読み、次に書く内容に反映します。
+ひとつお願いがあります。**このメールに返信して、あなたが今どの段階にいるか**（情報収集中、本格的に探している、すでに売り手と話している）と、日本について何を知りたいかを教えてください。返信はすべて読み、次に書く内容に反映します。
 
 — Steve
 
 ---
 
-## 6. 無料と有料の線引き
+## 5. 無料と有料の線引き
 
 | | 無料（週次ブリーフ） | 有料（深掘り＋アーカイブ） |
 |---|---|---|
 | 頻度 | 毎週1本 | 月2本 |
 | 分量 | 600〜900語 | 1,500〜2,500語 |
-| 中身 | 今週の動き3件＋一言解釈＋今週の数字 | 独自集計の表、複数ソースの突き合わせ、判断の材料と私の見立て |
+| 中身 | 今週の動き3件＋一言解釈＋今週の数字＋売り手側の視点 | 独自集計の表、複数ソースの突き合わせ、チェックリスト、判断の材料と私の見立て |
 | 役割 | 発見・信頼づくり・紹介されること | 「この1本で1つ判断できる」こと |
 | アーカイブ | 直近4週 | 全号 |
 | 有料化の時期 | — | README §4どおり：無料100人 または Pledges 5件 の早い方。それまで全号無料、深掘りも無料で出して「払う価値」を見せる |
 
 深掘りは冒頭3〜4段落を無料公開し、そこで「判断の問い」と「結論の方向」までは見せる。
+有料向けの定番として、次の3つを用意しておく（深掘りの合間に更新）：
+- **Sector table**：業種別の後継者不在率・休廃業件数・編集長のコメント（四半期ごとに更新）
+- **Rulebook**：外国人の買い手に関わる制度の一覧（変更があれば更新）
+- **Questions to ask your intermediary**：仲介会社に聞くべき質問リスト
 
 ---
 
-## 7. 価格案
+## 6. 価格案
 
 | プラン | 価格 | 根拠 |
 |---|---|---|
-| **月額** | **$15 / 月** | 日本関連の個人媒体の相場は月$6〜10（例：Observing Japan 月$6・年$60、[出典](https://observingjapan.substack.com/p/an-update-on-subscriptions)）。本媒体は読者の仕入れ・投資判断に直結するB2Bで、会社経費で払う前提のため相場より上に置く。中古機1台の判断で数千ドル動く読者にとって、月$15は経費精算の手間に見合う上限に近い |
-| **年額** | **$150 / 年**（2か月分お得） | 経費精算が年1回で済み、解約率を下げる |
-| **Founding Member** | **$300 / 年** | 支援の意思がある読者・法人向け。特典：四半期ごとに読者の質問に答える号（Q&A）を1本、名前の掲載（希望者のみ）。上限・特典は運用しながら調整 |
-| （任意）法人・チーム | $500 / 年・5名まで [要確認：Substackのグループ購読機能の現行仕様] | Observing Japan の「年$250で無制限」に倣う。ディーラーの営業チームでの回覧を正規化する |
+| **月額** | **$25 / 月** | 読者は数千万〜数億円の買収を検討しており、デューデリジェンス費用に比べれば誤差。日本関連の個人媒体の相場は月$6〜10（例：Observing Japan 月$6・年$60、[出典](https://observingjapan.substack.com/p/an-update-on-subscriptions)）だが、本媒体は買収判断に直結するB2Bで、経費で落ちる前提のため相場より上に置く |
+| **年額** | **$250 / 年**（2か月分お得） | 探索期間は数か月〜1年以上に及ぶため、年額が合う。経費精算も1回で済む |
+| **Founding Member** | **$500 / 年** | 支援の意思がある読者・ファンド向け。特典：四半期ごとに読者の質問に答えるQ&A号、希望者の名前掲載。個別相談は特典にしない（助言・仲介と見られないため） |
+| （任意）チーム | $1,000 / 年・5名まで [要確認：Substackのグループ購読機能の現行仕様] | 小型PE・ファミリーオフィスの社内回覧を正規化する |
 
 **判断材料**
-- 90日のゴールは「有料5人」。単価を上げても母数（無料購読者）の伸びが課題であることは変わらない。
-- 安くするより、Pledgesの時点で「$15でも払う」と言ってくれる人がいるかで価格を検証する。Pledgesが集まらなければ、価格より内容（約束の一文）を見直す。
-- 手数料：Substack 10%＋Stripe手数料で、実質13〜17%が差し引かれる（README §0）。$15 → 手取り約$12.5〜13。
+- 月$1,000（手数料前）に必要な有料読者は、月額換算で約40人。READMEの前提（$10×100人）より少ない人数で届く。
+- 一方で読者層が狭く、無料100人までに時間がかかる可能性がある。価格は Pledges の段階で「$25でも払う」と言う人がいるかで検証し、集まらなければ価格より先に約束の一文と読者像を見直す（README §4）。
+- 手数料：Substack 10%＋Stripe手数料で実質13〜17%（README §0）。$25 → 手取り約$21〜22。
