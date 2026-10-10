@@ -60,3 +60,24 @@
 - 実際のURL（サブドメインが取れたか）
 - 配信曜日（Welcome メールの `[曜日]` に入れる）
 - 開設日（`metrics/metrics.csv` の起点にする）
+
+---
+
+## 6. 設定結果（2026-10-10、Claude in Chrome による作業の報告）
+
+| 項目 | 結果 |
+|---|---|
+| 媒体名・サブドメイン・紹介文・言語・カテゴリ | 設定済み（Business） |
+| ロゴ・ワードマーク・アクセント色 #D6402F | 設定済み。ワードマークは縦横比の制限（21:4）に合わせて上下に透明余白を追加 |
+| カバー画像 | Website editor の Welcome page の Image 欄に設定（ソーシャルプレビュー専用欄は見つからず） |
+| 背景色 | 白のまま（紺にはしない方針） |
+| プロフィール（Steve、@japanhandover、Bio、写真） | 設定済み |
+| About・Welcome email | 設定済み。配信曜日は火曜。"paid subscribers get" → "will get" への修正が必要（編集長が手で修正） |
+| Pledges | ON。月$25／年$250／Founding $500 |
+| Paid subscriptions・Stripe | 未接続（有料化の条件に達するまで触らない） |
+
+**残っている対応（編集長）**
+- Substack上の、拡張機能が独自に作った下書き「Issue #1 — The pool is shrinking…」を削除する（ファクトチェック未了のため。第1号は `issues/2026-10-08-successor-crunch/final.md` を使う）
+- 返信先（Reply-to）とメールの送信者名が本名・個人Gmailの表示名になっていないか確認する（アカウントは個人Gmailのまま運用、編集長判断）
+- 2段階認証を有効にする
+- X・LinkedIn の名前・画像・Bio をそろえる

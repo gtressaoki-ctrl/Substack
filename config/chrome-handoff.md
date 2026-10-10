@@ -68,7 +68,7 @@ Subject: Welcome to The Japan Handover — here's what to expect
 
 Thanks for subscribing.
 
-Every week you'll get a short brief on Japan's small-business succession market: three moves from Japanese sources, what each one means for a buyer, one number to remember, and a view from the owner's side. It takes about ten minutes to read.
+Every Tuesday you'll get a short brief on Japan's small-business succession market: three moves from Japanese sources, what each one means for a buyer, one number to remember, and a view from the owner's side. It takes about ten minutes to read.
 
 Twice a month, paid subscribers will get a deep dive built around a single decision — for example, which sectors have the highest share of owners with no successor, and what that does and doesn't tell you about deal flow.
 

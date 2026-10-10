@@ -51,7 +51,7 @@ Each week I read those sources and send you a short brief:
 - **A view from the owner's side** — how Japanese sellers and their staff tend to see a deal.
 - Links to every Japanese source, so you can check my work.
 
-Paid subscribers also get two deep dives a month — data tables and comparisons built to support one concrete decision, such as which sector to search first — plus the full archive.
+Paid subscribers will also get two deep dives a month — data tables and comparisons built to support one concrete decision, such as which sector to search first — plus the full archive.
 
 **What this is not**
 I don't list deals, introduce buyers to sellers, or take referral fees. I don't give investment, legal or tax advice. The goal is to help you ask better questions of the people who do.
@@ -106,9 +106,9 @@ Search-fund entrepreneurs and their investors, small private-equity and family-o
 
 Thanks for subscribing.
 
-Every [曜日] you'll get a short brief on Japan's small-business succession market: three moves from Japanese sources, what each one means for a buyer, one number to remember, and a view from the owner's side. It takes about ten minutes to read.
+Every Tuesday you'll get a short brief on Japan's small-business succession market: three moves from Japanese sources, what each one means for a buyer, one number to remember, and a view from the owner's side. It takes about ten minutes to read.
 
-Twice a month, paid subscribers get a deep dive built around a single decision — for example, which sectors have the highest share of owners with no successor, and what that does and doesn't tell you about deal flow.
+Twice a month, paid subscribers will get a deep dive built around a single decision — for example, which sectors have the highest share of owners with no successor, and what that does and doesn't tell you about deal flow.
 
 One request: **hit reply and tell me where you are in your search** — still exploring, actively searching, or already talking to a seller — and what you're trying to figure out about Japan. I read every reply, and the answers shape what I write next.
 
@@ -120,7 +120,7 @@ One request: **hit reply and tell me where you are in your search** — still ex
 
 ご購読ありがとうございます。
 
-毎週[曜日]に、日本の中小企業の事業承継市場について短いブリーフをお届けします。日本語ソースから3つの動き、それぞれが買い手にとって何を意味するか、覚えておきたい数字1つ、そして売り手側から見た視点。10分ほどで読めます。
+毎週火曜日に、日本の中小企業の事業承継市場について短いブリーフをお届けします。日本語ソースから3つの動き、それぞれが買い手にとって何を意味するか、覚えておきたい数字1つ、そして売り手側から見た視点。10分ほどで読めます。
 
 月2回、有料購読者には1つの判断に絞った深掘りをお届けします。例えば「後継者不在の割合が高いのはどの業種か、それは案件の出やすさについて何を示し、何を示さないか」といったテーマです。
 
