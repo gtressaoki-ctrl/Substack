@@ -14,7 +14,7 @@ README.md の「Phase 2」に厳密に従う。
 5. `draft.md`：600〜900 words、背景を1〜2文で補う。要約＋出典＋独自解釈（全文翻訳禁止）
 6. `factcheck.md`：全数字・固有名詞・主張 ↔ 出典URL表。未確認は一覧化、本文に `[要確認]`
 7. 英語編集パス：和製英語・直訳調・冗長を修正。タイトル5案・サブタイトル3案
-8. `final.md`：Substackに貼れる形。末尾に有料版への自然な導線1つ
+8. `final.md`：Substackに貼れる形。末尾に有料版への自然な導線1つ。表は画像（`images/`）にし、SNS共有用画像も作る。最後に `python3 tools/make_handoff.py issues/<dir> --social images/<social>.png --table-images images/<表1>.png,...` で拡張機能への指示文 `chrome-handoff.md` を生成する
 9. `promo.md`：Notes 5本・LinkedIn 2本・X 3本（各々単独で価値がある切り口）
 10. 公開前チェックリストを表示して **停止**（非公開情報なし／出典あり／独自価値1つ以上／煽りなし／要確認ゼロ or 明示）。
 `config/voice.md` に従う。
