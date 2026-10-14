@@ -36,7 +36,7 @@ https://japanhandover.substack.com の管理画面で、次の作業を順番に
 本文ここから
 *This is the first issue of The Japan Handover. Each week, I read Japanese sources on small-business succession and tell you what they mean for a buyer.*
 
-In Japan, a small company with no successor rarely ends in a sale. More often, the owner dies or falls ill first, and this week's data shows that happening faster than at any point on record. If you are waiting for these companies to show up on a deal platform, you are often arriving after it is over.
+In Japan, a small company with no successor rarely ends in a sale. More often, the owner dies or falls ill first, and new data shows that happening faster than at any point on record. If you are waiting for these companies to show up on a deal platform, you are often arriving after it is over.
 
 ## 1. Successor-shortage bankruptcies hit a record
 
@@ -92,7 +92,7 @@ The deadline that matters more did not move. The gift or inheritance itself must
 
 ---
 
-In two weeks, I'll publish a sector-by-sector table: where the share of owners without a successor is highest, and what that does and doesn't tell you about deal flow. If you'd find it worth paying for, you can pledge a subscription now — nothing is charged until paid issues begin.
+On October 27, I'll publish a sector-by-sector table: where the share of owners without a successor is highest, and what that does and doesn't tell you about deal flow. If you'd find it worth paying for, you can pledge a subscription now — nothing is charged until paid issues begin.
 
 *This newsletter is not investment, legal or tax advice.*
 本文ここまで

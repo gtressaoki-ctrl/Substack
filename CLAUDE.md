@@ -15,7 +15,7 @@
 ## 進捗
 - Phase 0（niche）: 完了（Gに決定）
 - Phase 1（setup）: 完了。Substack開設・初期設定済み（`config/substack-setup.md` §6）。未決：業種の厚み・案件紹介しない方針の了承
-- Phase 2（weekly）: 2026-W41 第1号を作成済み（`issues/2026-10-08-successor-crunch/`）。表・SNS用画像、拡張機能への指示文（`chrome-handoff-issue1.md`）まで準備済み → 編集長が下書き作成と公開（予定：2026-10-13(火) 20:00 JST＝7:00 ET）
+- Phase 2（weekly）: 2026-W41 第1号を作成済み（`issues/2026-10-08-successor-crunch/`）。表・SNS用画像、拡張機能への指示文（`chrome-handoff-issue1.md`）まで準備済み → 公開が遅れたため 2026-10-15(木) 20:00 JST に変更を提案。本文の「this week's data」「In two weeks」を修正済み
 - Phase 2（weekly）: 2026-W42 前半完了（`signals/2026-W42.md`）→ 編集長の回答待ち。第2号は 2026-10-20(火) 公開予定
 - 深掘り #1（業種別の表、公開予定 2026-10-27）作成済み（`issues/2026-10-27-sector-table/`）→ 編集長コメント2か所＋建設業許可の確認待ち
 - 深掘り #2 のテーマ候補：`research/deepdive-candidates.md`（推奨：個人保証）→ 編集長の選択待ち
