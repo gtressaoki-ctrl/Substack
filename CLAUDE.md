@@ -13,6 +13,7 @@
 - 案件の紹介・仲介・引き合わせ・紹介料の受け取りはしない。投資・法律・税務の助言はしない
 
 ## 進捗
+- **編集長向けの1画面まとめは `STATUS.md`。毎回これを更新する。編集長が答えない項目は STATUS.md の既定値で進める**
 - Phase 0（niche）: 完了（Gに決定）
 - Phase 1（setup）: 完了。Substack開設・初期設定済み（`config/substack-setup.md` §6）。未決：業種の厚み・案件紹介しない方針の了承
 - Phase 2（weekly）: 2026-W41 第1号を作成済み（`issues/2026-10-08-successor-crunch/`）。表・SNS用画像、拡張機能への指示文（`chrome-handoff-issue1.md`）まで準備済み → 公開が遅れたため 2026-10-15(木) 20:00 JST に変更を提案。本文の「this week's data」「In two weeks」を修正済み
