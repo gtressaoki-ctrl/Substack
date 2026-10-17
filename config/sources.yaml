@@ -1,0 +1,252 @@
+# 巡回する日本語ソース（ニッチG：中小企業M&A・事業承継）
+# pillar: data / rules / sectors
+# frequency: 更新頻度（目安）  reliability: A=官公庁・公的統計, B=信用調査会社・業界団体・上場企業の開示, C=民間メディア・プラットフォーム（裏取り必須）
+# url_checked: 2026-10-08 にHTTP 200を確認=true。false は巡回時にトップから辿り直す
+# 注意：中小企業庁・経産省のサイトはブラウザのUser-Agentでないと403になる場合がある
+
+sources:
+  # ---------- 官公庁・公的機関（Rules / Data） ----------
+  - name: 中小企業庁 中小M&Aガイドライン（第3版・2024年8月）
+    url: https://www.chusho.meti.go.jp/zaimu/shoukei/m_and_a_guideline.html
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 中小企業庁 M&A支援機関登録制度（登録状況の公表）
+    url: https://www.chusho.meti.go.jp/zaimu/shoukei/2026/260309m_and_a.html
+    type: government
+    pillar: rules
+    frequency: monthly
+    reliability: A
+    url_checked: false
+    note: 月次で登録状況・措置の公表がある模様。最新月は中小企業庁の事業承継ページから辿る
+  - name: 中小企業庁 事業承継（トップ）
+    url: https://www.chusho.meti.go.jp/zaimu/shoukei/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: false
+  - name: 中小企業白書・小規模企業白書
+    url: https://www.chusho.meti.go.jp/pamflet/hakusyo/
+    type: statistics
+    pillar: data
+    frequency: yearly
+    reliability: A
+    url_checked: false
+  - name: 中小機構 事業承継・引継ぎポータル
+    url: https://shoukei.smrj.go.jp/
+    type: government
+    pillar: data
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 事業承継・引継ぎ支援センター（全国の公的窓口・実績）
+    url: https://shoukei.smrj.go.jp/center/
+    type: government
+    pillar: data
+    frequency: yearly
+    reliability: A
+    url_checked: true
+  - name: 中小機構（ファンド・支援策）
+    url: https://www.smrj.go.jp/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 事業承継・M&A補助金（公募・採択）
+    url: https://shoukei-mahojokin.go.jp/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 日本政策金融公庫 総合研究所（中小企業の調査）
+    url: https://www.jfc.go.jp/n/findings/sme_findings2.html
+    type: statistics
+    pillar: data
+    frequency: monthly
+    reliability: A
+    url_checked: true
+  - name: 財務省 外為法関係（対内直接投資の事前届出）
+    url: https://www.mof.go.jp/policy/international_policy/gaitame_kawase/index.html
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 日本銀行 外為法に関する手続き
+    url: https://www.boj.or.jp/about/services/tame/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 国税庁（事業承継税制・非上場株式の評価）
+    url: https://www.nta.go.jp/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 金融庁（経営者保証・地域金融機関の事業承継支援）
+    url: https://www.fsa.go.jp/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: 全国銀行協会（経営者保証に関するガイドライン）
+    url: https://www.zenginkyo.or.jp/
+    type: industry_association
+    pillar: rules
+    frequency: irregular
+    reliability: B
+    url_checked: true
+  - name: e-Stat（経済センサス、法人企業統計など）
+    url: https://www.e-stat.go.jp/
+    type: statistics
+    pillar: data
+    frequency: irregular
+    reliability: A
+    url_checked: true
+  - name: JETRO Invest Japan（外国企業向けの日本進出情報・英語）
+    url: https://www.jetro.go.jp/en/invest/setting_up/
+    type: government
+    pillar: rules
+    frequency: irregular
+    reliability: A
+    url_checked: true
+    note: 英語で既に出ている内容の確認用（重複を避けるため）
+
+  # ---------- 信用調査会社（Data） ----------
+  - name: 帝国データバンク レポート（後継者不在率、休廃業・解散、倒産）
+    url: https://www.tdb.co.jp/report/
+    type: research
+    pillar: data
+    frequency: weekly
+    reliability: B
+    url_checked: true
+    note: 後継者不在率は毎年11月頃。2025年は50.1%（約27万社）
+  - name: 帝国データバンク 経済・経営レポート
+    url: https://www.tdb.co.jp/report/economic/
+    type: research
+    pillar: data
+    frequency: weekly
+    reliability: B
+    url_checked: true
+  - name: 東京商工リサーチ TSRデータインサイト（休廃業・解散、倒産、M&A）
+    url: https://www.tsr-net.co.jp/data/
+    type: research
+    pillar: data
+    frequency: daily
+    reliability: B
+    url_checked: true
+
+  # ---------- 開示・統計（Data / Sectors） ----------
+  - name: TDnet 適時開示（上場企業による中小企業の買収）
+    url: https://www.release.tdnet.info/inbs/I_main_00.html
+    type: disclosure
+    pillar: sectors
+    frequency: daily
+    reliability: A
+    url_checked: true
+  - name: EDINET
+    url: https://disclosure2.edinet-fsa.go.jp/
+    type: disclosure
+    pillar: sectors
+    frequency: daily
+    reliability: A
+    url_checked: true
+  - name: レコフデータ MARR（M&A件数の統計）
+    url: https://www.marr.jp/
+    type: research
+    pillar: data
+    frequency: monthly
+    reliability: B
+    url_checked: true
+    note: 一部有料。公開部分のみ使用
+  - name: 日本M&Aセンターホールディングス IR（仲介最大手の成約件数・手数料）
+    url: https://www.nihon-ma.co.jp/ir/
+    type: company_ir
+    pillar: data
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: M&Aキャピタルパートナーズ IR
+    url: https://www.ma-cp.com/ir/
+    type: company_ir
+    pillar: data
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+  - name: ストライク IR
+    url: https://www.strike.co.jp/ir/
+    type: company_ir
+    pillar: data
+    frequency: quarterly
+    reliability: B
+    url_checked: true
+
+  # ---------- 業界団体（Rules） ----------
+  - name: M&A支援機関協会（旧M&A仲介協会、自主規制ルール・特定事業者リスト）
+    url: https://www.ma-chukai.or.jp/
+    type: industry_association
+    pillar: rules
+    frequency: irregular
+    reliability: B
+    url_checked: false
+    note: 自動チェックで接続できず。2025年1月に名称変更との報道あり。新URLを確認
+  - name: 日本商工会議所（事業承継の調査・提言）
+    url: https://www.jcci.or.jp/
+    type: industry_association
+    pillar: data
+    frequency: irregular
+    reliability: B
+    url_checked: false
+    note: 自動チェックで接続できず。ブラウザで確認
+
+  # ---------- プラットフォーム（Sectors：傾向の把握のみ。個別案件は紹介しない） ----------
+  - name: BATONZ（掲載件数・業種の傾向）
+    url: https://www.batonz.jp/
+    type: platform
+    pillar: sectors
+    frequency: daily
+    reliability: C
+    url_checked: true
+    note: 利用規約を確認し、集計・傾向の言及にとどめる
+  - name: TRANBI
+    url: https://www.tranbi.com/
+    type: platform
+    pillar: sectors
+    frequency: daily
+    reliability: C
+    url_checked: true
+    note: 同上
+  - name: M&Aサクシード
+    url: https://ma-succeed.jp/
+    type: platform
+    pillar: sectors
+    frequency: daily
+    reliability: C
+    url_checked: true
+    note: 同上
+
+  # ---------- メディア（裏取り必須、全文転載禁止） ----------
+  - name: M&A Online（レコフデータ運営）
+    url: https://maonline.jp/
+    type: trade_press
+    pillar: sectors
+    frequency: daily
+    reliability: C
+    url_checked: true
+  - name: 財経新聞 プレスリリース（調査会社の発表の転載）
+    url: https://www.zaikei.co.jp/releases/3194399/
+    type: trade_press
+    pillar: data
+    frequency: daily
+    reliability: C
+    url_checked: true
+    note: 一次資料が見つからないときの確認用。本文の出典は原則として一次資料にする

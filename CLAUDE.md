@@ -1,0 +1,25 @@
+# CLAUDE.md
+
+運用指示書の本体は README.md にあります（編集長: 青木）。必ず全文に従うこと。
+
+@README.md
+
+## 決定事項
+- ニッチ：**G（日本の中小企業M&A・事業承継インテリジェンス、海外の買い手向け）**で決定（2026-10-08）→ `config/niche.md`。経緯は `research/`
+- 媒体名：The Japan Handover（https://japanhandover.substack.com、2026-10-10 開設・初期設定済み）。開設手順は `config/substack-setup.md`、画像は `assets/branding/`。ペンネーム：Steve（About で「ペンネーム、日本語ネイティブ、日本在住」と明示）
+- ペンネームで執筆。本名・勤務先・居住市町村・前職の社名は一切出さない
+- 個社名は公開資料ベースで扱ってよい。副業規定は確認済み
+- 配信は毎週火曜。価格（Pledges表示）：月$25／年$250／Founding $500。有料購読・Stripeは未接続
+- 案件の紹介・仲介・引き合わせ・紹介料の受け取りはしない。投資・法律・税務の助言はしない
+
+## 進捗
+- **編集長向けの1画面まとめは `STATUS.md`。毎回これを更新する。編集長が答えない項目は STATUS.md の既定値で進める**
+- Phase 0（niche）: 完了（Gに決定）
+- Phase 1（setup）: 完了。Substack開設・初期設定済み（`config/substack-setup.md` §6）。未決：業種の厚み・案件紹介しない方針の了承
+- Phase 2（weekly）: 2026-W41 第1号を作成済み（`issues/2026-10-08-successor-crunch/`）。表・SNS用画像、拡張機能への指示文（`chrome-handoff-issue1.md`）まで準備済み → 公開が遅れたため 2026-10-15(木) 20:00 JST に変更を提案。本文の「this week's data」「In two weeks」を修正済み
+- Phase 2（weekly）: 2026-W42 前半完了（`signals/2026-W42.md`）→ 編集長の回答待ち。第2号は 2026-10-20(火) 公開予定
+- 深掘り #1（業種別の表、公開予定 2026-10-27）作成済み（`issues/2026-10-27-sector-table/`）→ 編集長コメント2か所＋建設業許可の確認待ち
+- 深掘り #2 のテーマ候補：`research/deepdive-candidates.md`（推奨：個人保証）→ 編集長の選択待ち
+- 拡張機能への指示文は `tools/make_handoff.py` で原稿から生成する
+- 拡張機能（Claude in Chrome）に頼るのは Substack/X/LinkedIn の画面操作だけ。原稿・画像・指示文はこのリポジトリで完結させる
+- 繰り返し使う作業は `.claude/skills/` の `niche` / `setup` / `weekly` / `deepdive` / `review` を呼び出す
